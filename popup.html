@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Age Viewer - Enter Birthday</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 5px;
+      min-width: 300px; /* Adjusted min-width */
+      position: relative;
+    }
+    .container {
+      text-align: center;
+    }
+    #birthdayInput {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    #clearButton {
+      padding: 6px 10px;
+      background-color: #ccc;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #saveButton {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #saveButton:hover {
+      background-color: #0056b3;
+    }
+    #age {
+      color: #333;
+    }
+    #version{
+        color: #082017;
+    }
+    footer {
+      position: relative;
+      margin-right: 1px;
+      color: #888;
+      font-size: 0.8em;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Age Viewer</h1><hr>
+    <span id="age"></span><hr>
+    <div>
+      <code>Birth Date :</code>  
+      <input type="date" id="birthdayInput">
+      <button id="clearButton">Clear</button>
+    </div>
+    <br>
+    <button id="saveButton">Save Birthday</button>
+  </div>
+  <hr>
+  <footer>&copy; 2024 astro_lion, version - <span id="version"></span></footer>
+  <script type="module" src="scripts/popup.js"></script>
+</body>
+</html>
