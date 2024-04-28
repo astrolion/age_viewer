@@ -6,16 +6,6 @@ Enter a date of birth, and it displays the age in a popup window and provides a 
 
 #### Installation 
 
-* Download the latest release (currently age_viewer-v-1.0-release.zip) or
-if you'd like to contribute to the extension's development, you can clone the source code from the Age Viewer repository on GitHub: [replace with your actual GitHub repository URL]
-
-**Once you have downloaded the extension or cloned the source code, follow these steps:**
-
-* **Open Chrome extensions:** In your Chrome browser, navigate to `chrome://extensions/` in the address bar.
-* **Enable Developer Mode:** Toggle on "Developer mode" in the top right corner.
-* **Load the extension:** Click "Load unpacked" and select the folder containing the downloaded extension files (or the cloned source code if applicable).
-
-
 To get started with Age Viewer, you can:
 
 * **Download the latest release:** Click [here](https://github.com/astrolion/age_viewer/releases) to download the latest release (currently `age_viewer-v-1.0-release.zip`).
