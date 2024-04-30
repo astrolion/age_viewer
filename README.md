@@ -16,7 +16,6 @@ To get started with Age Viewer, you can:
 * **Open Chrome extensions:** In your Chrome browser, navigate to `chrome://extensions/` in the address bar.
 * **Enable Developer Mode:** Toggle on "Developer mode" in the top right corner.
 * **Load the extension:** Click "Load unpacked" and select the folder containing the downloaded extension files (or the cloned source code if applicable).
-* 
 #### Usage
 
 1. Click the Age Viewer icon in your Chrome toolbar to open the popup window.
